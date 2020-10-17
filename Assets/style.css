@@ -1,0 +1,33 @@
+.highlight {
+    background-color: #7C94F4;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    transform: skew(-20deg) rotate(-5deg);
+    border-radius: 5px;
+  }
+  
+  .highlight strong {
+    display: inline-block;
+    padding: 20px;
+    transform: skew(20deg) rotate(5deg);
+  }
+  
+  .search-form {
+    padding-top: 30px;
+  }
+  
+  button.is-blue {
+    background-color: white;
+    color: #7C94F4;
+  }
+  
+  button.is-blue:hover {
+    background-color: #7C94F4;
+    color: white;
+  }
+  
+  button.is-blue:active {
+    background-color: #667cd4;
+    color: white;
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/7652f157a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="section hero is-fullheight is-light">
+      <div class="hero-body">
+        <div class="container">
+          <div class="column is-4 is-offset-4">
+            <p class="title has-text-centered">
+              New York Times
+              <span class="highlight"><strong>Search</strong></span>
+            </p>
+            <div class="field">
+              <label class="label">Search Term</label>
+              <div class="control">
+                <input
+                  id="terms"
+                  class="input "
+                  type="text"
+                  placeholder="e.g Harry Houdini"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Result Limit</label>
+              <div class="control">
+                <input
+                  id="limit"
+                  class="input"
+                  type="number"
+                  placeholder="e.g 5"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Start Year</label>
+              <div class="control">
+                <input
+                  id="start"
+                  class="input"
+                  type="number"
+                  placeholder="e.g 1990"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">End Year</label>
+              <div class="control">
+                <input
+                  id="end"
+                  class="input"
+                  type="number"
+                  placeholder="e.g 2015"
+                />
+              </div>
+            </div>
+            <button
+              id="search"
+              class="button is-fullwidth is-blue has-text-weight-semibold"
+            >
+              Search
+            </button>
+            <hr />
+            <div id="results"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img id="modal-img" src="" alt="">
+        </p>
+      </div>
+      <button onclick="closeModal()" class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js?v=2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </body>
+</html>
