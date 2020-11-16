@@ -1,6 +1,10 @@
 New York Times Article Search
 -----------------------------
 
+![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/rschm007/NYT-Article-Search?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/rschm007/NYT-Article-Search?style=flat&logo=appveyor)
+  
+Check out the badges hosted by [shields.io](https://shields.io/).
+
 This webapp was designed as part of the UCI Web Development Bootcamp.
 
 This app uses jQuery and the Moment.js library to allow a user to save events for each hour of the day in a neatly organized table. The table rows change color depending upon if the hour is in the past, present, or future. 
